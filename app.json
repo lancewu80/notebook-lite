@@ -2,23 +2,27 @@
   "expo": {
     "name": "Notebook Lite",
     "slug": "notebook-lite",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
+    "icon": "./assets/icon.png",
     "splash": {
       "resizeMode": "contain",
       "backgroundColor": "#1a1a2e"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#1a1a2e"
+        "foregroundImage": "./assets/icon_foreground.png",
+        "backgroundColor": "#4285F4"
       },
       "package": "com.notebooklite"
     },
     "ios": {
+      "icon": "./assets/icon.png",
       "supportsTablet": false,
       "bundleIdentifier": "com.notebooklite"
-    }
+    },
+    "platforms": ["android", "ios"]
   }
 }
